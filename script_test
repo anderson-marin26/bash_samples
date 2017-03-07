@@ -13,8 +13,8 @@ else
 	echo $VAR2
 fi
 
-array[0]="bla"
-array[1]="blo"
+array[0]="first_key"
+array[1]="second_key"
 
 for var in "$array"
 do
