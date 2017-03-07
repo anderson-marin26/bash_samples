@@ -1,0 +1,22 @@
+#!/bin/bash
+
+VAR="Test"
+VAR2="Test2"
+num1=1
+num2=2
+array=()
+
+if [ $num2 -gt $num1 ]
+then
+	echo $VAR
+else
+	echo $VAR2
+fi
+
+array[0]="bla"
+array[1]="blo"
+
+for var in "$array"
+do
+	echo "$var"
+done
